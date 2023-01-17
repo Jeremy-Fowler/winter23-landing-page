@@ -1,0 +1,104 @@
+/* SECTION element selectors */
+
+
+/* NOTE asterisk selector applies css to all elements on webpage */
+/* *{
+  font-family: 'Rowdies', cursive;
+} */
+
+header{
+  background-color: #8f2167;
+  padding: 1.2em;
+}
+
+body{
+  margin: 0;
+  background-color: bisque;
+}
+
+h1{
+  /* top: 50%; */
+  max-height: 10vh;
+  margin-right: 2vw;
+  font-family: 'Rowdies', cursive;
+}
+
+h3{
+  text-align: center;
+}
+
+/* h4{
+  margin: 1vh 0 0 0;
+} */
+
+footer{
+  background-color: #380e28;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 3vh;
+  padding: .2em;
+}
+
+/* SECTION class selectors */
+
+.nav-header{
+  color: white;
+  font-size: 1.6em;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.justify-content-evenly{
+  justify-content: space-evenly;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.align-items-end{
+  align-items: flex-end;
+}
+
+.jeremy-img{
+  height: 33vh;
+}
+
+.card{
+  padding: 1em;
+  border-radius: 2%;
+  box-shadow: 1pt 1pt rgb(84, 80, 80);
+  width: 30vh;
+  background-color: white;
+}
+
+.border{
+  border: .1em solid black;
+}
+
+.margin-top{
+  margin-top: 3vh;
+}
+
+.margin-left{
+  margin-left: 3vw;
+}
+
+.cat-img{
+  width: 10vw;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+  object-fit: cover;
+}
+
+.cat-card{
+  border-radius: 2%;
+  box-shadow: 1pt 1pt rgba(86, 85, 85, 0.66);
+  background-color: white;
+}
